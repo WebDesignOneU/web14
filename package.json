@@ -1,0 +1,27 @@
+{
+  "name": "web14-react-swapi-learning-path",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Showcase didáctico de React + Vite + TypeScript: ruta de aprendizaje guiada con ejemplos sobre la API SWAPI (Star Wars).",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.4",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^5.2.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.7"
+  }
+}
